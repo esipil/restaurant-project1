@@ -1,0 +1,238 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.home {
+  background-color: #eee;
+}
+.homePage {
+  background-image: url(/public/pexels-ella-olsson-1640777.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  height: 1024px;
+}
+.navContents {
+  display: inline-block;
+  list-style: none;
+  padding:5px;
+  text-decoration:none;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #eee;
+  display: block;
+}
+.links {
+  float: left;
+  padding: 5px;
+  margin-left:100px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+
+}
+.welcome-note {
+  margin-top: 14%;
+  text-align: center;
+  font-size: 60px;
+  font-style:inherit;
+}
+.welcome {
+  font-size:26px;
+  font-family:"proxima nora";
+  line-height: 2;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slogan {
+  font-size: 49px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-top: 18%;
+
+}
+.daily-menu{
+  width:100%;
+  height:2200px;
+  background-color:#eee
+}
+.notice {
+  text-align: center;
+  font-family:serif;
+  font-style:inherit;
+  margin-top:0px;
+}
+.breakfast{
+  width: 80%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.342);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+  border-radius: 6px;
+}
+.breakfast-1{
+  width: 49.9%;
+  height: 100%;
+  float:left;
+}
+.breakfast-2{
+  width: 49.9%;
+  height: 100%;
+  float:left;
+}
+.border{
+  width: 0.2%;
+  height: 100%;
+  float: left;
+  background-color:black;
+}
+.header {
+  text-align: center;
+}
+.food{
+  text-align: center;
+  font-size:18px;
+  text-justify: inter-word;
+  line-height: 1.5;
+}
+.bookerT {
+  background-image: url(/public/Best\ Rooftop\ Bars\ in\ NYC.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  height: 1024px;
+}
+.bookNotice {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(218, 176, 176);
+}
+.forms{
+  background-color: #eee;
+  width:50%;
+  height: auto;
+  border-radius: 9px;
+  margin: auto;
+  mix-blend-mode: screen;
+}
+.inputBox {
+  width: 60%;
+  padding: 12px 20px;
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px black;
+  border-radius: 4px;
+}
+.label{
+  text-align: center;
+}
+label,input {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  text-align: center;
+}
+.reservations{
+  margin: auto;
+  width: 50%;
+  background-color: aliceblue;
+  mix-blend-mode: screen;
+}
+.needToKnow{
+  text-align: center;
+  font-size: 25px;
+  color:black;
+  line-height: 2.0;
+}
+.to {
+  text-align: center;
+  font-size: 40px;
+}
+.feedback{
+  width: 100%;
+  height:300px;
+  background-color: white;
+}
+.input{
+  width: 50%;
+  margin: auto;
+  height: 50px;
+}
+.feedback-notice{
+  text-align: center;
+  font-size: 40px;;
+}
+.hhh{
+  text-align: center;
+  font-size: 30px;
+}
+.but{
+  width: 40px;
+  height: 20px;
+}
+.about-box{
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  background-color: rgb(223, 219, 219);
+  margin-top: 40px;
+  margin-bottom: auto;
+  border-radius: 10px;
+}
+.about-description{
+  text-align: center;
+  font-size: 40px;
+  text-decoration: dotted;
+}
+.about-paragraph{
+  text-align:center;
+  font-size: 30px;
+  line-height: 90px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
